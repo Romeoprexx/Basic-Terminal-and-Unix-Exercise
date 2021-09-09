@@ -1,0 +1,45 @@
+PS C:\Users\PC> cd desktop
+PS C:\Users\PC\desktop> mkdir first
+
+
+    Directory: C:\Users\PC\desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/6/2021   4:07 PM                first
+
+
+PS C:\Users\PC\desktop> 
+
+PS C:\Users\PC\desktop> cd first
+PS C:\Users\PC\desktop\first> 
+
+PS C:\Users\PC\desktop\first> ni person.txt
+
+
+    Directory: C:\Users\PC\desktop\first
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----         9/6/2021   4:10 PM              0 person.txt
+
+PS C:\Users\PC\desktop\first> ren person.txt another.txt
+
+
+PS C:\Users\PC\desktop\first> cp another.txt copy.txt
+
+PS C:\Users\PC\desktop\first> rm copy.txt 
+
+PS C:\Users\PC\desktop> cp -r first second
+
+
+PS C:\Users\PC\desktop> rmdir second
+
+Confirm
+The item at C:\Users\PC\desktop\second has children and the Recurse parameter was  
+not specified. If you continue, all children will be removed with the item. Are you
+ sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help 
+(default is "Y"):Y
